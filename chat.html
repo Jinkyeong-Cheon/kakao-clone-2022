@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chat w/ JK  - Kokoa Talk</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column"> 
+            <span>13:58</span>
+        </div>
+        <div class="status-bar__column">
+         <span>100%</span>    
+         <i class="fa-solid fa-battery-full fa-lg"></i> 
+         <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div> 
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+
+        </div>   
+       <div class="alt-header__column">
+            <h1 class="alt-header__title">JK</h1>
+        </div>
+        <div class="alt-header__column">
+         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+         <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+        Tuesday, July 3, 2022    
+        </div>
+        <div class="message-row">
+            <img src="https://th-thumbnailer.cdn-si-edu.com/wVkY4ktA-0JvRsuh8EASm6NoSNs=/1000x750/filters:no_upscale():focal(978x630:979x631)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/db/82/db8234fc-f167-4285-82bd-123d035e32ad/cats.jpg"/>
+            <div class="message-row__content">
+              <span class="message__author">JK</span>
+              <div class="message__info">
+                <span class="message__bubble">Hi!</span>
+                <span class="message__time">16:52</span>
+              </div>
+            </div>
+         </div>
+
+        <div class="message-row message-row__own">            
+            <div class="message-row__content">
+              <div class="message__info">
+                <span class="message__bubble">What's up?</span>
+                <span class="message__time">16:58</span>
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="fa-regular fa-face-grin fa-lg"></i>       
+           <button>
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+      </div>
+
+
+      <script src="https://kit.fontawesome.com/cdf03d7ce6.js" 
+    crossorigin="anonymous">   </script>
+</body>
+</html> 
